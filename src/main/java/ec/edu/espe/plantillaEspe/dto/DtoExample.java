@@ -1,4 +1,4 @@
-package ec.edu.espe.movilidad.MovilidadWS.dto;
+package ec.edu.espe.plantillaEspe.dto;
 
 import lombok.Data;
 

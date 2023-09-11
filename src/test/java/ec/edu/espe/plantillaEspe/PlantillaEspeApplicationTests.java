@@ -1,10 +1,10 @@
-package ec.edu.espe.movilidad.MovilidadWS;
+package ec.edu.espe.plantillaEspe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MovilidadWsApplicationTests {
+class PlantillaEspeApplicationTests {
 
 	@Test
 	void contextLoads() {

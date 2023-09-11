@@ -1,13 +1,13 @@
-package ec.edu.espe.movilidad.MovilidadWS;
+package ec.edu.espe.plantillaEspe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MovilidadWsApplication {
+public class PlantillaEspeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MovilidadWsApplication.class, args);
+		SpringApplication.run(PlantillaEspeApplication.class, args);
 	}
 
 }

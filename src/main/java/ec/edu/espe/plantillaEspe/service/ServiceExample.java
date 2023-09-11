@@ -1,13 +1,9 @@
-package ec.edu.espe.movilidad.MovilidadWS.service;
+package ec.edu.espe.plantillaEspe.service;
 
-import ec.edu.espe.movilidad.MovilidadWS.dao.DaoExample;
-import ec.edu.espe.movilidad.MovilidadWS.model.ModelExample;
-import ec.edu.espe.movilidad.MovilidadWS.model.ModelExample;
+import ec.edu.espe.plantillaEspe.dao.DaoExample;
+import ec.edu.espe.plantillaEspe.model.ModelExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import ec.edu.espe.movilidad.MovilidadWS.service.IServiceExample;
-
 import java.util.ArrayList;
 import java.util.List;
 

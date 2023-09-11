@@ -1,6 +1,6 @@
-package ec.edu.espe.movilidad.MovilidadWS.dao;
+package ec.edu.espe.plantillaEspe.dao;
 
-import ec.edu.espe.movilidad.MovilidadWS.model.ModelExample;
+import ec.edu.espe.plantillaEspe.model.ModelExample;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import java.util.List;

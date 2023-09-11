@@ -1,7 +1,6 @@
-package ec.edu.espe.movilidad.MovilidadWS.service;
+package ec.edu.espe.plantillaEspe.service;
 
-import ec.edu.espe.movilidad.MovilidadWS.model.ModelExample;
-
+import ec.edu.espe.plantillaEspe.model.ModelExample;
 import java.util.List;
 
 public interface IServiceExample {

@@ -1,15 +1,12 @@
-package ec.edu.espe.movilidad.MovilidadWS.model;
-
+package ec.edu.espe.plantillaEspe.model;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.persistence.*;
 import lombok.Data;
-import javax.persistence.*;
 import java.util.Date;
-
 @Data
 @Entity
 @Table(name = "UZITAREA", schema = "UTIC")
 public class ModelExample {
-
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -20,7 +17,7 @@ public class ModelExample {
     private String name;
 
     @Column(name = "UZITAREA_STATE", nullable = false)
-    private Boolean state;
+    private Long state;
 
     @Column(name = "UZITAREA_FECHA_CREA")
     @JsonFormat(pattern = "yyyy-MM-dd", shape = JsonFormat.Shape.STRING, timezone = JsonFormat.DEFAULT_TIMEZONE)
